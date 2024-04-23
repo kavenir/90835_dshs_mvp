@@ -17,13 +17,21 @@ To obtain an OpenAI Key for using the UI, please follow these steps:
 1.  Visit this link: https://platform.openai.com/apps
 2.  Log in to your account.
 3.  Select "API".
+
 ![select API](assets/select_api.jpeg)
+
 4.  Choose "API keys" on the right side of the page.
+
 ![choose API keys](assets/choose_api_keys.jpeg)
+
 5.  Click on “Create new secret key”.
+
 ![create new key](assets/create_api_key.jpeg)
+
 6.  Provide a name for the new secret key and select "Create secret key".
+
 ![create secret key](assets/create_secret_key.jpeg)
+
 7.  Open the file named "credential.json" and paste your OpenAI key into the designated bracket. "openai_api_key": "your OpenAI Key"
 
 ## Activate the UI 
