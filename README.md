@@ -42,23 +42,30 @@ To activate the UI, follow these three steps:
 
 ## Usage
 1.  Select Patient Name / Patient ID
+
 The UI provides a dropdown menu or a search bar where the physician can select or search for a patient's name or patient ID. This allows the physician to easily locate the patient they are interested in.
 
 2.  Display Patient Information
+
 Once the physician selects a patient, relevant information about the patient can be displayed. This includes basic demographics (e.g., age, gender), admission details (e.g., date of admission, discharge date), and any other relevant information available in the dataset.
 
 3.  Assess Patient Readiness for Discharge
+
 Once the physician selects a patient, the system will assess whether the patient is prepared for discharge. If not, a warning message will be displayed stating, "This patient is not safe for discharge!" to alert the physician that the patient is not yet ready.
 
 4.  Choose Inclusion of Personally Identifiable Information (PII)
+
 Offer physicians the option to specify whether they want to include personal information such as name, patient ID, age, and gender in the discharge summary. If they prefer not to include PII, they can select "without PII"; otherwise, they can choose "with PII" to include this information.
 
 5.  Generate Discharge Summary Button
+
 A "Generate Summary" button will be provided. When clicked, this button triggers the system to generate the discharge summary letter for the selected patient based on the input data.
 
 6.  Display Generated Summary
+
 Below the button, a section should be dedicated to displaying the generated discharge summary letter. This area should dynamically update whenever a new summary is generated.
 
 7.  Error Handling
+
 Error messages should be displayed in case of any issues, such as if the selected patient does not have sufficient data available for generating a summary.
 
